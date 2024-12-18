@@ -9,9 +9,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "color": "#95a4b9"
       },
+      backgroundColor: {
+        "navbarColor": "#00102c"
+      },
+      screens: {
+        ssm: "540px",
+        sssm: "480px",
+        ssssm: "360px"
+      }
     },
   },
   plugins: [],
